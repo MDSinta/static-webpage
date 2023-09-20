@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <script>
+            function greet() {
+                console.log("hello world");
+            }
+            function initialize() {
+                outputDiv = document.getElementById("divout");
+            }
+            function clickResponse() {
+                outputDiv.innerHTML = "Now you have clicked the button";
+            }
+            function addNumbers() {
+                var result = num1 + num32;
+                console.log(result);
+            }
+            function shout10() {
+                console.log("10!");
+            }
+        </script>
+    </head>
+    <body onload="initialize(), greet()">
+        <button onclick="shout10()">
+            shout 10!
+        </button>
+        <button onclick="addNumbers()">
+            add 2 numbers
+        </button>
+
+    </body>
+    <body onload="initialize()">
+        <div id="divout">
+            You have not clicked the button.
+        </div>
+
+        <button onclick="clickResponse()">Click me!</button>
+    </body>
+    <div>
+        <button></button>
+    </div>
+</html>
