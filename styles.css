@@ -14,3 +14,8 @@ nav {
     text-align: center;
     font-size: 60px;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
