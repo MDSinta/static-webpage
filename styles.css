@@ -4,10 +4,12 @@
     margin-top: 2%;
 }
 a {
+    border-radius: 4px;
+    background-color: green;
     text-decoration:overline;
     font-size: 20px;
-    color:black;
-    padding: 2%;
+    color:white;
+    padding: 10px;
 }
 
 a:hover {
@@ -19,12 +21,20 @@ nav {
     text-align: center;
 }
 .gugle {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: green;
+    padding: 40px;
+    border-radius: 3px;
+    color: white;
     text-align: center;
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
 }
 footer {
-    position: absolute;
+    padding: 30px;
+    text-align: center;
+    background-color: grey;
     bottom: 0;
 }
