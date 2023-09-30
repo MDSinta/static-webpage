@@ -1,0 +1,23 @@
+.post {
+    display: flex;
+    padding: 30px;
+}
+
+.description {
+    padding-left: 20px;
+    font-size: 5%; 
+}
+
+.title {
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    color: white;
+}
+
+video {
+    width: 20%;
+    height: 20%;
+}
